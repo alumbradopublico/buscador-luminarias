@@ -28,7 +28,7 @@
             #lightbox img {
                 max-width: 100%;
                 max-height: 100%;
-                width: 100px;
+                width: auto;
                 height: auto;
                 margin: auto;
             }
@@ -92,8 +92,8 @@
                 resultados.innerHTML += `
                         <div class="luminaria">
                             <p><strong>Barrio:</strong> ${luminaria.municipio}</p>
-                            <p><strong>Potencia:</strong> ${luminaria.potencia}</p>
                             <p><strong>Modelo:</strong> ${luminaria.modelo}</p>
+                            <p><strong>Potencia:</strong> ${luminaria.potencia}</p>
                             <img src="${luminaria.foto}" alt="Luminaria">
                         </div>
                     `;
