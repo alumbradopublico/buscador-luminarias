@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Luminarias</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        input { margin: 10px; padding: 5px; }
+        .luminaria { border: 1px solid #ccc; padding: 10px; margin: 10px; display: inline-block; width: 200px; }
+        img { max-width: 100px; height: 100px; object-fit: contain; }
+        #resultados { display: none; }
+
+        /* Estilo para el lightbox */
+        #lightbox {
+            display: none; /* Oculto por defecto */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7); /* Fondo oscuro */
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+            #lightbox img {
+                max-width: none;
+                max-height: 100%;
+                width: auto;
+                height: auto;
+                margin: auto;
+            }
+
+            #lightbox.close {
+                display: flex;
+            }
+
+        /* Botón para cerrar */
+        #close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: #fff;
+            padding: 10px;
+            cursor: pointer;
+            font-size: 20px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Buscador de Luminarias</h1>
+
+    <select id="searchMunicipio">
+        <option value="">Selecciona un Municipio</option>
+        <!-- Aquí puedes agregar las opciones de municipio -->
+        <option value="Avellaneda">Avellaneda</option>
+        <option value="Lanús">Lanús</option>
+        <option value="Lomas de Zamora">Lomas de Zamora</option>
+        <option value="Quilmes">Quilmes</option>
+    </select>
+
+    <input type="text" id="searchModelo" placeholder="Buscar por Modelo...">
+    <input type="text" id="searchPotencia" placeholder="Buscar por Potencia...">
+    <div id="resultados"></div>
+
+    <!-- Contenedor de Lightbox -->
+    <div id="lightbox">
+        <div id="close">X</div>
+        <img src="" alt="Imagen en tamaño completo">
+    </div>
+
+    <script>
+        let luminarias = [];
+
+        // Cargar datos desde el JSON
+        fetch('./luminarias.json')
+            .then(response => response.json())
+            .then(data => {
+                luminarias = data;
+                mostrarLuminarias(luminarias);
+
+            });
+
+        // Función para mostrar las luminarias
+        function mostrarLuminarias(lista) {
+            const resultados = document.getElementById('resultados');
+            resultados.innerHTML = '';
+            lista.forEach(luminaria => {
+                resultados.innerHTML += `
+                        <div class="luminaria">
+                            <p><strong>Barrio:</strong> ${luminaria.municipio}</p>
+                            <p><strong>Potencia:</strong> ${luminaria.potencia}</p>
+                            <p><strong>Modelo:</strong> ${luminaria.modelo}</p>
+                            <img src="${luminaria.foto}" alt="Luminaria">
+                        </div>
+                    `;
+            });
+
+            resultados.style.display = lista.length > 0 ? 'block' : 'none';
+        }
+
+        // Función de filtrado
+        function filtrarLuminarias() {
+            const municipioQuery = document.getElementById('searchMunicipio').value.toLowerCase();
+            const modeloQuery = document.getElementById('searchModelo').value.toLowerCase();
+            const potenciaQuery = document.getElementById('searchPotencia').value.toLowerCase();
+
+            // Filtramos las luminarias según los tres criterios
+            const filtradas = luminarias.filter(luminaria =>
+                luminaria.municipio.toLowerCase().includes(municipioQuery) &&
+                luminaria.modelo.toLowerCase().includes(modeloQuery) &&
+                luminaria.potencia.toLowerCase().includes(potenciaQuery)
+            );
+
+            mostrarLuminarias(filtradas);
+        }
+
+        // Escuchar entradas en los tres campos de búsqueda
+        document.getElementById('searchMunicipio').addEventListener('input', filtrarLuminarias);
+        document.getElementById('searchModelo').addEventListener('input', filtrarLuminarias);
+        document.getElementById('searchPotencia').addEventListener('input', filtrarLuminarias);
+
+       
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = lightbox.querySelector('img');
+        const closeBtn = document.getElementById('close');
+
+        // Manejar el clic en las imágenes
+        document.getElementById('resultados').addEventListener('click', (event) => {
+            if (event.target.tagName === 'IMG') {
+                lightbox.style.display = 'flex';
+                lightboxImg.src = event.target.src;
+            }
+        });
+
+        // Cerrar el lightbox
+        closeBtn.addEventListener('click', () => {
+            lightbox.style.display = 'none';
+        });
+
+        // Cerrar cuando se haga clic fuera de la imagen
+        lightbox.addEventListener('click', (event) => {
+            if (event.target === lightbox) {
+                lightbox.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
