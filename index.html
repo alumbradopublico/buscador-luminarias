@@ -49,11 +49,25 @@
             border-radius: 50%;
         }
 
+        .grupo {
+            display: flex;
+            flex-direction: column; /* Asegura que los elementos dentro del grupo queden alineados */
+            align-items: center;
+            width: 100%; /* Ajustar al tamaño del contenedor */
+        }
+
+        /* Estilo para inputs y select */
         select, input {
-            display: block;
-            width: 30%; /* Ajusta el ancho si lo deseas */
-            margin: 10px auto; /* Espaciado entre ellos y centrado */
-            padding: 5px;
+            width: 40%; /* Ajusta el tamaño */
+            padding: 8px;
+            text-align: center;
+            border-radius: 5px; /* Bordes redondeados */
+            border: 1px solid #ccc; /* Bordes suaves */
+        }
+
+        #searchMunicipio {
+            padding: 15px;
+            margin-bottom: 15px;
         }
     </style>
 </head>
@@ -69,8 +83,13 @@
         <option value="Quilmes">Quilmes</option>
     </select>
 
-    <input type="text" id="searchModelo" placeholder="Buscar por Modelo...">
-    <input type="text" id="searchPotencia" placeholder="Buscar por Potencia...">
+    <div class="grupo">
+        <input type="text" id="searchModelo" placeholder="Buscar por Modelo...">
+    </div>
+
+    <div class="grupo">
+        <input type="text" id="searchPotencia" placeholder="Buscar por Potencia...">
+    </div>
     <div id="resultados"></div>
 
     <!-- Contenedor de Lightbox -->
@@ -97,13 +116,13 @@
             resultados.innerHTML = '';
             lista.forEach(luminaria => {
                 resultados.innerHTML += `
-                        <div class="luminaria">
-                            <p><strong>Barrio:</strong> ${luminaria.municipio}</p>
-                            <p><strong>Modelo:</strong> ${luminaria.modelo}</p>
-                            <p><strong>Potencia:</strong> ${luminaria.potencia}</p>
-                            <img src="${luminaria.foto}" alt="Luminaria">
-                        </div>
-                    `;
+                            <div class="luminaria">
+                                <p><strong>Municipio:</strong> ${luminaria.municipio}</p>
+                                <p><strong>Modelo:</strong> ${luminaria.modelo}</p>
+                                <p><strong>Potencia:</strong> ${luminaria.potencia}</p>
+                                <img src="${luminaria.foto}" alt="Luminaria">
+                            </div>
+                        `;
             });
 
             resultados.style.display = lista.length > 0 ? 'block' : 'none';
@@ -130,7 +149,7 @@
         document.getElementById('searchModelo').addEventListener('input', filtrarLuminarias);
         document.getElementById('searchPotencia').addEventListener('input', filtrarLuminarias);
 
-       
+
         const lightbox = document.getElementById('lightbox');
         const lightboxImg = lightbox.querySelector('img');
         const closeBtn = document.getElementById('close');
