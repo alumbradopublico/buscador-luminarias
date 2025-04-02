@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buscador de Luminarias</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; }
+        body { font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center; }
         input { margin: 10px; padding: 5px; }
         .luminaria { border: 1px solid #ccc; padding: 10px; margin: 10px; display: inline-block; width: 200px; }
         img { max-width: 100px; height: 100px; object-fit: contain; }
         #resultados { display: none; }
-
+        .logo { display:inline-block }
+        
         /* Estilo para el lightbox */
         #lightbox {
             display: none; /* Oculto por defecto */
@@ -45,7 +46,7 @@
             background-color: #fff;
             padding: 10px;
             cursor: pointer;
-            font-size: 20px;
+            font-size: 15px;
             border-radius: 50%;
         }
 
@@ -70,11 +71,40 @@
             margin: 15px;
             width: 60%;
         }
+
+        #titulo {
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            position:relative;
+            color: darkgrey;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: small;
+            gap: 0px;
+        }
+
+        #logo {
+            max-width: 80%;
+            max-height: 80%;
+            width: 200px;
+            height: 200px;
+            margin: 0px;
+            padding: 0px;
+            
+        }
+
+        h1 {
+            margin-top: -50px; /* Ajusta este valor para acercarlo más */
+        }
+
     </style>
 </head>
 <body>
-    <h1>Buscador de Luminarias</h1>
-
+    <div id="titulo">
+        <img src="Logo.jpg" alt="logo_edesur" id="logo"/>
+        <h1>Alumbrado público</h1>
+    </div>
+    <h2>Buscador de luminarias</h2>
     <select id="searchMunicipio">
         <option value="">Selecciona un Municipio</option>
         <!-- Aquí puedes agregar las opciones de municipio -->
