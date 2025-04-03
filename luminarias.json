@@ -3,7 +3,7 @@
         "modelo": "Strand SX 200",
         "potencia": "304W",
         "municipio": "Avellaneda",
-        "foto": "https://lh3.googleusercontent.com/d/1BCJNVnUBAmBFVM8rMCj5jfIDMDzHOwJv"
+        "foto": "/Fotos_luminarias/Strand_sx_200.jpg"
     },
     {
         "modelo": "Strand RS 320",
@@ -123,7 +123,7 @@
         "modelo": "Lampara B/C 85W",
         "potencia": "85W",
         "municipio": "Avellaneda",
-        "foto": "https://lh3.googleusercontent.com/d/1kRoJupXhDIMgUOH_GCYJTAYNe4WRJCtc "
+        "foto": "https://lh3.googleusercontent.com/d/1kRoJupXhDIMgUOH_GCYJTAYNe4WRJCtc"
     },
     {
         "modelo": "Vapor de Mercurio Fluorescente (VMF)250",
@@ -135,7 +135,7 @@
         "modelo": "VMF 400W",
         "potencia": "400W",
         "municipio": "Avellaneda",
-        "foto": ""
+        "foto": "https://lh3.googleusercontent.com/d/1tstcA52TvJJIe3Qq7Ba_qimME5ZjjK1G"
     },
     {
         "modelo": "Mezcladora Vapor de Mercurio 250",
@@ -172,5 +172,11 @@
         "potencia": "140W",
         "municipio": "Avellaneda",
         "foto": "https://lh3.googleusercontent.com/d/1kw05RVTs0f57eWpnGIe4OxhEqgFJsd3j"
+    },
+    {
+        "modelo": "Strand RS 320",
+        "potencia": "290W",
+        "municipio": "Avellaneda",
+        "foto": "/Fotos_luminarias/Strand_rs_320_plaqueta_entera.jpg"
     }
 ]
