@@ -45,7 +45,7 @@
         "modelo": "Philco 180",
         "potencia": "180W",
         "municipio": "Avellaneda",
-        "foto": ""
+        "foto": "https://lh3.googleusercontent.com/d/1dpUXy6sHK_lbqNrmj4_b1wwrex9TpxT-"
     },
     {
         "modelo": "Philco 240",
@@ -126,13 +126,13 @@
         "foto": "https://lh3.googleusercontent.com/d/1kRoJupXhDIMgUOH_GCYJTAYNe4WRJCtc"
     },
     {
-        "modelo": "Vapor de Mercurio Fluorescente (VMF)250",
+        "modelo": "Vapor de Mercurio Fluorescente (VMF)",
         "potencia": "250W",
         "municipio": "Avellaneda",
         "foto": "https://lh3.googleusercontent.com/d/1tDuc6Kph4-O_IdnPIjaGmRBzsTEGUsJc"
     },
     {
-        "modelo": "VMF 400W",
+        "modelo": "Vapor de Mercurio Fluorescente (VMF)",
         "potencia": "400W",
         "municipio": "Avellaneda",
         "foto": "https://lh3.googleusercontent.com/d/1tstcA52TvJJIe3Qq7Ba_qimME5ZjjK1G"
