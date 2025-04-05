@@ -166,18 +166,21 @@
 
             resultados.style.display = lista.length > 0 ? 'block' : 'none';
         }
-
+        // Función para eliminar tildes y convertir a minúsculas
+        function normalizarTexto(texto) {
+            return texto.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+        }
         // Función de filtrado
         function filtrarLuminarias() {
-            const municipioQuery = document.getElementById('searchMunicipio').value.toLowerCase();
-            const modeloQuery = document.getElementById('searchModelo').value.toLowerCase();
-            const potenciaQuery = document.getElementById('searchPotencia').value.toLowerCase();
+            const municipioQuery = normalizarTexto(document.getElementById('searchMunicipio').value.toLowerCase());
+            const modeloQuery = normalizarTexto(document.getElementById('searchModelo').value.toLowerCase());
+            const potenciaQuery = normalizarTexto(document.getElementById('searchPotencia').value.toLowerCase());
 
             // Filtramos las luminarias según los tres criterios
             const filtradas = luminarias.filter(luminaria =>
-                luminaria.municipio.toLowerCase().includes(municipioQuery) &&
-                luminaria.modelo.toLowerCase().includes(modeloQuery) &&
-                luminaria.potencia.toLowerCase().includes(potenciaQuery)
+                normalizarTexto(luminaria.municipio).includes(municipioQuery) &&
+                normalizarTexto(luminaria.modelo).includes(modeloQuery) &&
+                normalizarTexto(luminaria.potencia).includes(potenciaQuery)
             );
 
             mostrarLuminarias(filtradas);
