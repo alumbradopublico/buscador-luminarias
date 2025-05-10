@@ -395,138 +395,137 @@
         "municipio": "CABA",
         "foto": "https://lh3.googleusercontent.com/d/1CiAs5QrwhBCEnZyocC2W7Qf1JfBwNT_V"
     },
-    
-        {
-            "modelo": "Led",
-            "potencia": "150W",
-            "municipio": "CABA",
-            "foto": "https://lh3.googleusercontent.com/d/11QjVFAWq7B904VuF1QnHKl-Xi1CLJl8c"
-        },
-        {
-            "modelo": "Philco Qiligth 1",
-            "potencia": "105W",
-            "municipio": "CABA",
-            "foto": "https://lh3.googleusercontent.com/d/1_WAIgiKapuMSchp3sQlxspJsvRG8PyfH"
-        },
-        {
-            "modelo": "GE Led",
-            "potencia": "99W",
-            "municipio": "CABA",
-            "foto": "https://lh3.googleusercontent.com/d/1sBnHHR6g1zu_JEPRbbui1MLRIrvAmkX1"
-        },
-        {
-            "modelo": "Strand Pay Yako 1",
-            "potencia": "176W",
-            "municipio": "CABA",
-            "foto": "https://lh3.googleusercontent.com/d/1w44T9DSGtv6yOd4usypKWd85c8vW56pX"
-        },
-        {
-            "modelo": "Strand F1200",
-            "potencia": "300W",
-            "municipio": "CABA",
-            "foto": "https://lh3.googleusercontent.com/d/17nDnL4ut3_XdbV8Y9D6hL8RFLNCVjdvw"
-        },
-        {
-            "modelo": "Farola GE Garden Ligth",
-            "potencia": "60W",
-            "municipio": "CABA",
-            "foto": "https://lh3.googleusercontent.com/d/1AOp7jcP5wQyz4DMtGAulOOs-AE2WlZAE"
-        },
-        {
-            "modelo": "Strand Pay Yako 2",
-            "potencia": "176W",
-            "municipio": "CABA",
-            "foto": "https://lh3.googleusercontent.com/d/1i9ROTKthZam-HekddVr8JhT97qlwoRpO"
-        },
-        {
-            "modelo": "Farola Qisur Walk ",
-            "potencia": "45W",
-            "municipio": "CABA",
-            "foto": "https://lh3.googleusercontent.com/d/1HmVH5BcJmuOH6X8MIfEkkR1X39m049_m"
-        },
-        {
-            "modelo": "IEP Vali",
-            "potencia": "200W",
-            "municipio": "CABA",
-            "foto": "https://lh3.googleusercontent.com/d/1lg-kDN3nAJbSmm7BomVqWwc-YHoQtmY1"
-        },
-        {
-            "modelo": "Farola Qisur Park",
-            "potencia": "150W",
-            "municipio": "CABA",
-            "foto": "https://lh3.googleusercontent.com/d/1oliJPNRBvNqRoaCgp-oUkUrnYshVGSHv"
-        },
-        {
-            "modelo": "Farola placa led SL Ligth Board",
-            "potencia": "50W",
-            "municipio": "CABA",
-            "foto": "https://lh3.googleusercontent.com/d/1YaZ-mlB7WRwW09y-QgLayDTcNo1ovS4I"
-        },
-        {
-            "modelo": "IEP Spika",
-            "potencia": "100W",
-            "municipio": "CABA",
-            "foto": "https://lh3.googleusercontent.com/d/1VrvgYA4v4aFJ3a-iIov8MrIpPrhjW7Mz"
-        },
-        {
-            "modelo": "Ignis Proyector",
-            "potencia": "105W",
-            "municipio": "CABA",
-            "foto": "https://lh3.googleusercontent.com/d/1Xlaayrd6rNOuzQng6QB3cFCkWpuUEyPT"
-        },
-        {
-            "modelo": "Colgante Strand Satelital 500 Led",
-            "potencia": "135W",
-            "municipio": "CABA",
-            "foto": "https://lh3.googleusercontent.com/d/1OwssL3uKmO_9XUAxIDjmzslkf43bUJ7H"
-        },
-        {
-            "modelo": "Colgante Farola Strand F194 ",
-            "potencia": "150W",
-            "municipio": "CABA",
-            "foto": "https://lh3.googleusercontent.com/d/1ubxt_IquGGqn3nT2s9lMLxjUDLk0VjmW"
-        },
-        {
-            "modelo": "Strand RS 320",
-            "potencia": "280W",
-            "municipio": "CABA",
-            "foto": "https://lh3.googleusercontent.com/d/1GYqt6XpOd2uXuN6U2KOx3xNHjI99gDA9"
-        },
-        {
-            "modelo": "IEP Vali 3000K",
-            "potencia": "460W",
-            "municipio": "CABA",
-            "foto": "https://lh3.googleusercontent.com/d/1uyfh0IkIm1LCMDqDIkViHmdd9RT3DxIA"
-        },
-        {
-            "modelo": "IEP Vali",
-            "potencia": "231W",
-            "municipio": "CABA",
-            "foto": "https://lh3.googleusercontent.com/d/1CrHzun9SzQPAx5HIwSNuUkFbDglIl5pi"
-        },
-        {
-            "modelo": "Qi GW R",
-            "potencia": "150W",
-            "municipio": "CABA",
-            "foto": "https://lh3.googleusercontent.com/d/1E6Viv6_-ywkwWhtIo3MkVlrtSTniadQF"
-        },
-        {
-            "modelo": "GE Roadway Micro",
-            "potencia": "35W",
-            "municipio": "CABA",
-            "foto": "https://lh3.googleusercontent.com/d/1CKA0KzROg3sDBjIRYH-u4_QsMavtRTnb"
-        },
-        {
-            "modelo": "Philips GW",
-            "potencia": "110W",
-            "municipio": "CABA",
-            "foto": "https://lh3.googleusercontent.com/d/1Ucyq-fQ7wofmLOdHVHZRaf19SrSSnwIj"
-        },
-        {
-            "modelo": "Philips GW",
-            "potencia": "200W",
-            "municipio": "CABA",
-            "foto": "https://lh3.googleusercontent.com/d/1-t9mVVETbCRFDojhTjjkn2qYNcHug8Xo"
-        }
-      
-    ]
+    {
+        "modelo": "Led",
+        "potencia": "150W",
+        "municipio": "CABA",
+        "foto": "https://lh3.googleusercontent.com/d/11QjVFAWq7B904VuF1QnHKl-Xi1CLJl8c"
+    },
+    {
+        "modelo": "Philco Qiligth 1",
+        "potencia": "105W",
+        "municipio": "CABA",
+        "foto": "https://lh3.googleusercontent.com/d/1_WAIgiKapuMSchp3sQlxspJsvRG8PyfH"
+    },
+    {
+        "modelo": "GE Led",
+        "potencia": "99W",
+        "municipio": "CABA",
+        "foto": "https://lh3.googleusercontent.com/d/1sBnHHR6g1zu_JEPRbbui1MLRIrvAmkX1"
+    },
+    {
+        "modelo": "Strand Pay Yako 1",
+        "potencia": "176W",
+        "municipio": "CABA",
+        "foto": "https://lh3.googleusercontent.com/d/1w44T9DSGtv6yOd4usypKWd85c8vW56pX"
+    },
+    {
+        "modelo": "Strand F1200",
+        "potencia": "300W",
+        "municipio": "CABA",
+        "foto": "https://lh3.googleusercontent.com/d/17nDnL4ut3_XdbV8Y9D6hL8RFLNCVjdvw"
+    },
+    {
+        "modelo": "Farola GE Garden Ligth",
+        "potencia": "60W",
+        "municipio": "CABA",
+        "foto": "https://lh3.googleusercontent.com/d/1AOp7jcP5wQyz4DMtGAulOOs-AE2WlZAE"
+    },
+    {
+        "modelo": "Strand Pay Yako 2",
+        "potencia": "176W",
+        "municipio": "CABA",
+        "foto": "https://lh3.googleusercontent.com/d/1i9ROTKthZam-HekddVr8JhT97qlwoRpO"
+    },
+    {
+        "modelo": "Farola Qisur Walk ",
+        "potencia": "45W",
+        "municipio": "CABA",
+        "foto": "https://lh3.googleusercontent.com/d/1HmVH5BcJmuOH6X8MIfEkkR1X39m049_m"
+    },
+    {
+        "modelo": "IEP Vali",
+        "potencia": "200W",
+        "municipio": "CABA",
+        "foto": "https://lh3.googleusercontent.com/d/1lg-kDN3nAJbSmm7BomVqWwc-YHoQtmY1"
+    },
+    {
+        "modelo": "Farola Qisur Park",
+        "potencia": "150W",
+        "municipio": "CABA",
+        "foto": "https://lh3.googleusercontent.com/d/1oliJPNRBvNqRoaCgp-oUkUrnYshVGSHv"
+    },
+    {
+        "modelo": "Farola placa led SL Ligth Board",
+        "potencia": "50W",
+        "municipio": "CABA",
+        "foto": "https://lh3.googleusercontent.com/d/1YaZ-mlB7WRwW09y-QgLayDTcNo1ovS4I"
+    },
+    {
+        "modelo": "IEP Spika",
+        "potencia": "100W",
+        "municipio": "CABA",
+        "foto": "https://lh3.googleusercontent.com/d/1VrvgYA4v4aFJ3a-iIov8MrIpPrhjW7Mz"
+    },
+    {
+        "modelo": "Ignis Proyector",
+        "potencia": "105W",
+        "municipio": "CABA",
+        "foto": "https://lh3.googleusercontent.com/d/1Xlaayrd6rNOuzQng6QB3cFCkWpuUEyPT"
+    },
+    {
+        "modelo": "Colgante Strand Satelital 500 Led",
+        "potencia": "135W",
+        "municipio": "CABA",
+        "foto": "https://lh3.googleusercontent.com/d/1OwssL3uKmO_9XUAxIDjmzslkf43bUJ7H"
+    },
+    {
+        "modelo": "Colgante Farola Strand F194 ",
+        "potencia": "150W",
+        "municipio": "CABA",
+        "foto": "https://lh3.googleusercontent.com/d/1ubxt_IquGGqn3nT2s9lMLxjUDLk0VjmW"
+    },
+    {
+        "modelo": "Strand RS 320",
+        "potencia": "280W",
+        "municipio": "CABA",
+        "foto": "https://lh3.googleusercontent.com/d/1GYqt6XpOd2uXuN6U2KOx3xNHjI99gDA9"
+    },
+    {
+        "modelo": "IEP Vali 3000K",
+        "potencia": "460W",
+        "municipio": "CABA",
+        "foto": "https://lh3.googleusercontent.com/d/1uyfh0IkIm1LCMDqDIkViHmdd9RT3DxIA"
+    },
+    {
+        "modelo": "IEP Vali",
+        "potencia": "231W",
+        "municipio": "CABA",
+        "foto": "https://lh3.googleusercontent.com/d/1CrHzun9SzQPAx5HIwSNuUkFbDglIl5pi"
+    },
+    {
+        "modelo": "Qi GW R",
+        "potencia": "150W",
+        "municipio": "CABA",
+        "foto": "https://lh3.googleusercontent.com/d/1E6Viv6_-ywkwWhtIo3MkVlrtSTniadQF"
+    },
+    {
+        "modelo": "GE Roadway Micro",
+        "potencia": "35W",
+        "municipio": "CABA",
+        "foto": "https://lh3.googleusercontent.com/d/1CKA0KzROg3sDBjIRYH-u4_QsMavtRTnb"
+    },
+    {
+        "modelo": "Philips GW",
+        "potencia": "110W",
+        "municipio": "CABA",
+        "foto": "https://lh3.googleusercontent.com/d/1Ucyq-fQ7wofmLOdHVHZRaf19SrSSnwIj"
+    },
+    {
+        "modelo": "Philips GW",
+        "potencia": "200W",
+        "municipio": "CABA",
+        "foto": "https://lh3.googleusercontent.com/d/1-t9mVVETbCRFDojhTjjkn2qYNcHug8Xo"
+    }
+
+]
