@@ -395,7 +395,7 @@
         "municipio": "CABA",
         "foto": "https://lh3.googleusercontent.com/d/1CiAs5QrwhBCEnZyocC2W7Qf1JfBwNT_V"
     },
-    [
+    
         {
             "modelo": "Led",
             "potencia": "150W",
@@ -530,4 +530,3 @@
         }
       
     ]
-]
